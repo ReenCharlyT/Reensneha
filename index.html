@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Price Comparison</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background: #b40473;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .search-box {
+            margin: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 15px;
+            background: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #219150;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .product-card {
+            background: white;
+            padding: 15px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .product-card h3 {
+            margin: 10px 0;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        table {
+            margin: 30px auto;
+            border-collapse: collapse;
+            width: 80%;
+            background: white;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+        }
+
+        th {
+            background: #2c3e50;
+            color: white;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            background: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Smart Price Comparison Website</h1>
+</header>
+
+<div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search product...">
+    <button onclick="searchProduct()">Search</button>
+</div>
+
+<div class="product-container">
+
+    <div class="product-card">
+        <h3>Product A</h3>
+        <p class="price">₹562.5</p>
+        <p>Amazon</p>
+        <p>⭐ 4.5</p>
+    </div>
+
+    <div class="product-card">
+        <h3>Product B</h3>
+        <p class="price">₹500.5</p>
+        <p>Flipkart</p>
+        <p>⭐ 4.3</p>
+    </div>
+
+    <div class="product-card">
+        <h3>Product C</h3>
+        <p class="price">₹520</p>
+        <p>Reliance Digital</p>
+        <p>⭐ 4.2</p>
+    </div>
+
+</div>
+
+<h2>Price Comparison Table</h2>
+
+<table>
+    <tr>
+        <th>Platform</th>
+        <th>Price</th>
+        <th>Rating</th>
+        <th>Buy Link</th>
+    </tr>
+    <tr>
+        <td>Amazon</td>
+        <td>₹562.5</td>
+        <td>1.5</td>
+        <td><a href="#">Visit</a></td>
+    </tr>
+    <tr>
+        <td>Flipkart</td>
+        <td>₹500.5</td>
+        <td>1.5</td>
+        <td><a href="#">Visit</a></td>
+    </tr>
+    <tr>
+        <td>Reliance Digital</td>
+        <td>₹520</td>
+        <td>1.5</td>
+        <td><a href="#">Visit</a></td>
+    </tr>
+</table>
+
+<footer>
+    © 2026 Smart Price Comparison | Built by Sneha ,Reen
+</footer>
+
+<!-- Link to External JavaScript File -->
+<script src="script.js"></script>
+
+</body>
+</html>
