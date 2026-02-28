@@ -1,10 +1,5 @@
-```{=html}
-<p align="center">
-```
-`<img src="./homepage.png" alt="Project Banner" width="100%">`{=html}
-```{=html}
-</p>
-```
+<img width="1280" height="640" alt="img" src="https://github.com/user-attachments/assets/a5be929a-4c3a-4b02-99be-ecb126551884" />
+
 # Smart Price Comparison Website 🎯
 
 ## Team Name: Ohhh!!yeah
@@ -69,14 +64,16 @@ functionality - Displays a structured comparison table
 ## 📷 Project Screenshots
 
 ### 1️⃣ Homepage View
+<img width="1914" height="936" alt="Screenshot 2026-02-28 093006" src="https://github.com/user-attachments/assets/35096b15-b0dd-486f-81b9-f357235933d5" />
+<img width="1919" height="1018" alt="Screenshot 2026-02-28 092929" src="https://github.com/user-attachments/assets/cf48def1-6b38-4ebf-ad99-84e18a05c7c0" />
 
-![Homepage Screenshot](./homepage.png)
 
 ------------------------------------------------------------------------
 
 ### 2️⃣ Search Result View
 
-![Search Screenshot](./search-result.png)
+<img width="1920" height="1080" alt="Screenshot 2026-02-28 095311" src="https://github.com/user-attachments/assets/819e08e1-061c-4794-b7f2-ff7c6196e59a" />
+
 
 ------------------------------------------------------------------------
 
